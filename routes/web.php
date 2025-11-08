@@ -8,8 +8,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/gustavo', function () {
-    echo 'Olá Gustavo';
+Route::get('/Edmir', function () {
+    echo 'Olá Edmir';
 });
 
 Route::get('/filmes/{filme}', function($filme) {
@@ -25,10 +25,14 @@ Route::get('/generos', function() {
 });
 
 
-Route::get('/atores', function() {
-    $minhaNovaVariavel = Ator::all();
-    dd($minhaNovaVariavel);
+Route::get('/atores', function () {
+    $atores = Ator::all();
+    return view('list-atores', compact('atores')); 
 });
+
+Route::get('/detalhes-ator/{ator}', function(Ator $ator){
+    return view('detalhes-ator', compact('ator'));
+})->name('detalhes-ator');
 
 Route::get('/', function() {
     $filmes = Filme::all();
