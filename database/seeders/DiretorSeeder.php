@@ -24,7 +24,7 @@ class DiretorSeeder extends Seeder
             [
                 'name' => "Quentin Tarantino",
                 'descricao' => "Diretor do filme Cães de Aluguel",
-                'nacionalidade_id' => 1
+                'nacionalidade_id' => 2
             ],
 
             [
