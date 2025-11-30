@@ -37,9 +37,9 @@ Route::get('/detalhes-ator/{ator}', function(Ator $ator){
 
 Route::get('/', function() {
     $filmes = Filme::all();
-    return view('lista-filmes',
-    compact('filmes'));
-});
+    return view('lista-filmes', compact('filmes'));
+})->name('filmes.index');
+
 
 Route::get('/detalhes-filme/{filme}',
 function(Filme $filme){

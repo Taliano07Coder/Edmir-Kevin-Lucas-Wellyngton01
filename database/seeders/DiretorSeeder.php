@@ -30,7 +30,19 @@ class DiretorSeeder extends Seeder
             [
                 'name' => "Christopher Nolan",
                 'descricao' => "Diretor do filme Interestelar",
-                'nacionalidade_id' => 3
+                'nacionalidade_id' => 2
+            ],
+
+              [
+                'name' => "Tim Burton",
+                'descricao' => "Diretor do filme A Noiva Cadáver",
+                'nacionalidade_id' => 2
+            ],
+
+              [
+                'name' => "James Cameron",
+                'descricao' => "Diretor do filme Avatar",
+                'nacionalidade_id' => 1
             ],
         ]
             

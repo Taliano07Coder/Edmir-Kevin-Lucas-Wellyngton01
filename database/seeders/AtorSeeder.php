@@ -30,13 +30,13 @@ class AtorSeeder extends Seeder
             [
                 'name' => "Robert Downey Jr.",
                 'descricao' => "Homem de ferro",
-                'nacionalidade_id' => 3
+                'nacionalidade_id' => 2
             ],
 
             [
                 'name' => "Will Smith",
                 'descricao' => "Ator e rapper americano",
-                'nacionalidade_id' => 4
+                'nacionalidade_id' => 2
             ],
 
         ]
