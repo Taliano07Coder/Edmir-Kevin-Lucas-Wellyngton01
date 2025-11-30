@@ -34,8 +34,20 @@ class AtorSeeder extends Seeder
             ],
 
             [
-                'name' => "Will Smith",
-                'descricao' => "Ator e rapper americano",
+                'name' => "Johnny Depp",
+                'descricao' => "Piratas do Caribe",
+                'nacionalidade_id' => 1
+            ],
+
+             [
+                'name' => "Eminem",
+                'descricao' => "Rapper americano",
+                'nacionalidade_id' => 2
+            ],
+
+             [
+                'name' => "Chris Evans",
+                'descricao' => "Capitão América",
                 'nacionalidade_id' => 2
             ],
 

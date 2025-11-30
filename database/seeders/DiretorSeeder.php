@@ -44,6 +44,12 @@ class DiretorSeeder extends Seeder
                 'descricao' => "Diretor do filme Avatar",
                 'nacionalidade_id' => 1
             ],
+
+             [
+                'name' => "Woody Allen",
+                'descricao' => "Diretor do filme Meia-Noite em Paris",
+                'nacionalidade_id' => 1
+            ],
         ]
             
         );

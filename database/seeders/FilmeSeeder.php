@@ -38,6 +38,31 @@ class FilmeSeeder extends Seeder
             'duracao' => "99",
             'descricao' => "Joe Cabot (Lawrence Tierney), um experiente criminoso, reuniu seis bandidos para um grande roubo de diamantes, mas estes seis homens não sabem nada um sobre os outros e cada um utiliza uma cor como codinome.",
             ],
+
+
+             [
+            'name' => "A Grande Batalha dos Deuses",
+            'lancamento' => "2000-09-10",
+            'classificacao' => "12",
+            'duracao' => "130",
+            'descricao' => "Cavaleiros de Athena.",
+            ],
+
+             [
+            'name' => "O Telefone Preto 2",
+            'lancamento' => "2025-10-09",
+            'classificacao' => "18",
+            'duracao' => "169",
+            'descricao' => "Filme terror.",
+            ],
+
+             [
+            'name' => "Peter Pan",
+            'lancamento' => "1982-07-05",
+            'classificacao' => "10",
+            'duracao' => "230",
+            'descricao' => "Fantasia.",
+            ],
         ]
 
         );

@@ -29,7 +29,7 @@ Route::get('/generos', function() {
 Route::get('/atores', function () {
     $atores = Ator::all();
     return view('list-atores', compact('atores')); 
-});
+})->name('atores.index');
 
 Route::get('/detalhes-ator/{ator}', function(Ator $ator){
     return view('detalhes-ator', compact('ator'));
@@ -81,6 +81,8 @@ Route::get('/generos', function () {
 Route::get('/detalhes-genero/{genero}', function(Genero $genero){
     return view('detalhes-genero', compact('genero'));
 })->name('detalhes-genero');
+
+Route::view('/criar', 'criar')->name('criar');
 
 Route::view('/login','login')->name('login');
 
