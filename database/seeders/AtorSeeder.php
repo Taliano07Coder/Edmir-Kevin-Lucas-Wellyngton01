@@ -26,6 +26,19 @@ class AtorSeeder extends Seeder
                 'descricao' => "Muito lembrada por atuar em Transformers",
                 'nacionalidade_id' => 2
             ],
+
+            [
+                'name' => "Robert Downey Jr.",
+                'descricao' => "Homem de ferro",
+                'nacionalidade_id' => 3
+            ],
+
+            [
+                'name' => "Will Smith",
+                'descricao' => "Ator e rapper americano",
+                'nacionalidade_id' => 4
+            ],
+
         ]
         
         );
